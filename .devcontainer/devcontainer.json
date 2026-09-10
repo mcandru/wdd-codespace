@@ -24,6 +24,13 @@
         "amazonwebservices.aws-toolkit-vscode",
         "Postman.postman-for-vscode"
       ]
+    },
+    "codespaces": {
+      "repositories": {
+        "[your-username]/*": {
+          "permissions": "write-all"
+        }
+      }
     }
   },
   "forwardPorts": [8000, 5173, 3000],
